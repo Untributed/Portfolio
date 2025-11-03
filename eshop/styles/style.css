@@ -1,0 +1,315 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-gray: #646487;
+  --clr-bright-gray: #ebebeb;
+  --clr-black: #111112;
+  --clr-white: #f6f6ff;
+}
+
+body {
+  background-color: var(--clr-bright-gray);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  padding: 80px;
+}
+
+.bg-clr {
+  background-color: var(--clr-white);
+  padding: 0px 40px 100px 30px;
+  box-shadow: 4px 4px 5px 1px rgb(0 0 0 / 20%);
+}
+
+.padding-div {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-black);
+  transition: transform 0.2s ease;
+}
+
+h1 a {
+  font-weight: 900;
+}
+
+h1:hover {
+  transform: translateY(-5px);
+}
+
+ul li:hover,
+.login:hover {
+  transform: scale(1.1);
+}
+
+header {
+  padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  position: relative;
+}
+
+.nav-left h1 a {
+  font-weight: 900;
+  color: var(--clr-black);
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-center ul {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-center a {
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.login a {
+  color: var(--clr-black);
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  background-color: var(--clr-gray);
+  color: var(--clr-white);
+  padding: 2px 9px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
+  border-color: black;
+}
+
+.hero-text {
+  display: flex;
+  font-size: 50px;
+  padding: 40px 0px 0px 0px;
+}
+
+.section-bottom .product-imgs {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  margin-left: 40px;
+}
+
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.hero-text {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.p-info {
+  font-weight: 400;
+  color: var(--clr-gray);
+  font-size: 18px;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: var(--clr-gray);
+  color: var(--clr-white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--clr-black);
+}
+
+.sports-guy {
+  width: 430px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 40px;
+  box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 30%);
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 0px 20px 0px;
+  align-items: center;
+}
+
+.filters {
+  padding: 0px 46px 0px 0px;
+}
+
+.product-imgs {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  gap: 20px;
+  width: auto;
+  height: 153px;
+}
+
+.product-imgs img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-imgs .headphones {
+  width: 700px;
+  height: 150px;
+}
+
+.product-imgs .bottle {
+  width: 700px;
+  height: 150px;
+}
+
+.product-imgs .shirt {
+  width: 700px;
+  height: 150px;
+}
+
+.product-imgs .bag {
+  width: 700px;
+  height: 150px;
+}
+
+.section-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-span {
+  background-color: #ffffff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: #caedff 1px solid;
+  border-right: hsl(201, 100%, 96%) 1px solid;
+  font-size: 14px;
+  width: 140px;
+  padding: 14px 10px;
+  box-shadow: inset 1px 1px 1px rgba(112, 158, 255, 0.452);
+}
+
+.price-span {
+  background-color: #ffffff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-right: hsl(201, 100%, 96%) 1px solid;
+  font-size: 14px;
+  width: 140px;
+  padding: 14px 10px;
+  box-shadow: inset 1px 0px 1px rgba(112, 158, 255, 0.452);
+}
+
+.btn-filter {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f0f2f3;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.items-classes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  gap: 100px;
+  text-align: start;
+}
+
+.headphones-price {
+  position: absolute;
+  left: 170px;
+}
+
+.bottle-price {
+  position: absolute;
+  left: 340px;
+}
+
+.shirt-price {
+  position: absolute;
+  left: 510px;
+}
+
+.bag-price {
+  position: absolute;
+  left: 680px;
+} 
+
+.span-prices {
+  font-size: 12px;
+  padding-top: 24px;
+  display: flex;
+  gap: 129px;
+}
+
+.price1 {
+  position: flex;
+}
+
+.price2 {
+  position: flex;
+}
+
+.price3 {
+  position: flex;
+}
+
+.price4 {
+  position: flex;
+}
