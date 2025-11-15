@@ -143,3 +143,36 @@ li a {
 .btn-get-started-wrapper {
     padding-top: 1.5rem;
 }
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.50rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.services-p {
+    width: 20%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.checks-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.check-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.20rem;
+    padding-right: 0.25rem;
+}
