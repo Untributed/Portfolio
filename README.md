@@ -1,6 +1,5 @@
 # Portfolio
 Projects
 
-Html/CSS Static Website
-Html/CSS/Javascript Static Website
-Html/CSS/React Dynamic Website
+eShop - HTML/CSS Static Website
+Veriflow - HTML/CSS Responsive Website
