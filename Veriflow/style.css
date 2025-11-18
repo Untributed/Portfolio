@@ -49,41 +49,72 @@ li a {
 .navigation-links {
     display: flex;
     gap: 1.75rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-.links {
-    color: #ffffff;
+.links a {
     position: relative;
-    display: inline-block;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 0.5s;
+    z-index: 1;
 }
 
-.links::after,
-.links::before {
+.links a::before {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #9279ff, #00ffff);
-    bottom: -5px;
+    top: 0;
     left: 0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.4s ease-out;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #ffffff29;
+    border-bottom: 2px solid #ffffff29;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: 0.3s;
 }
 
-.links::before {
-    top: -5px;
-    transform-origin: left;
+.links a::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(234, 239, 192, 0.075);
+    color: #ffff;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -1;
 }
 
-.links:hover::after,
-.links:hover::before {
-    transform: scaleX(1);
+.links a:hover {
+    color: #fff;
+}
+
+.links a:hover::before {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.links a:hover::after {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.logo {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 .logo:hover {
     cursor: pointer;
-    color: #bfb7ff;
+    color: #eaedeb;
     transform: scale(1.1);
 }
 
