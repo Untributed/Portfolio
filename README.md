@@ -1,5 +1,5 @@
 # Portfolio
 Projects
 
-eShop - HTML/CSS Static Website
-Veriflow - HTML/CSS Responsive Website
+eShop - E-Commerce Website (HTML/CSS)
+Veriflow - Business Website (Responsive HTML/CSS)
