@@ -151,11 +151,11 @@ li a {
     display: flex;
     flex-direction: column;
     gap: 0.50rem;
-    padding: 1.25rem 0rem 1rem 0rem;
+    padding: 0rem 1rem 1rem 0rem;
 }
 
 .services-p {
-    width: 80%;
+    width: 90%;
 }
 
 .footer-left {
@@ -199,7 +199,7 @@ li a {
 }
 
 .contact-wrapper {
-    padding-top: 1rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: row;
     gap: 0.50rem;
@@ -218,22 +218,25 @@ li a {
     display: flex;
     align-items: baseline;
     padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
 .footer-right .about-us-p {
     width: 80%;
     padding-bottom: 1rem;
+    padding-top: 0.30rem;
 }
 
 .footer-right .about-us-secondary-p {
     width: 80%;
+    padding-top: 0.25rem;
 }
 
 .footer-right button {
     display: flex;
     width: 40%;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 0.75rem 2rem;
     border-radius: 12px;
     border: transparent;
