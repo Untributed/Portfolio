@@ -17,7 +17,6 @@ body {
   background-color: var(--clr-bright-gray);
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
-  font-style: bold;
   padding: 80px;
 }
 
@@ -112,18 +111,6 @@ header {
   border-color: black;
 }
 
-.hero-text {
-  display: flex;
-  font-size: 50px;
-  padding: 40px 0px 0px 0px;
-}
-
-.section-bottom .product-imgs {
-  display: flex;
-  width: 100px;
-  height: 100px;
-}
-
 main {
   margin-left: 40px;
 }
@@ -147,6 +134,7 @@ main {
 .hero-text {
   font-size: 50px;
   line-height: 1.2;
+  padding: 40px 0px 0px 0px;
 }
 
 .p-info {
@@ -187,7 +175,7 @@ main {
 }
 
 .filters {
-  padding: 0px 46px 0px 0px;
+  padding: 0px 202px 0px 0px;
 }
 
 .product-imgs {
@@ -205,22 +193,22 @@ main {
 }
 
 .product-imgs .headphones {
-  width: 700px;
+  width: 180px;
   height: 150px;
 }
 
 .product-imgs .bottle {
-  width: 700px;
+  width: 180px;
   height: 150px;
 }
 
 .product-imgs .shirt {
-  width: 700px;
+  width: 180px;
   height: 150px;
 }
 
 .product-imgs .bag {
-  width: 700px;
+  width: 180px;
   height: 150px;
 }
 
@@ -265,51 +253,23 @@ main {
 
 .items-classes {
   display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  gap: 100px;
-  text-align: start;
+  margin-top: 20px;
 }
 
-.headphones-price {
-  position: absolute;
-  left: 170px;
+.items-classes p {
+  width: 170px;
+  font-weight: 600;
 }
-
-.bottle-price {
-  position: absolute;
-  left: 340px;
-}
-
-.shirt-price {
-  position: absolute;
-  left: 510px;
-}
-
-.bag-price {
-  position: absolute;
-  left: 680px;
-} 
 
 .span-prices {
-  font-size: 12px;
-  padding-top: 24px;
   display: flex;
-  gap: 129px;
+  font-size: 12px;
+  gap: 10px;
 }
 
-.price1 {
-  position: flex;
-}
-
-.price2 {
-  position: flex;
-}
-
-.price3 {
-  position: flex;
-}
-
-.price4 {
-  position: flex;
+.span-prices .span-price {
+  width: 160px;
+  text-align: center;
+  font-weight: 700;
+  text-align: start;
 }
