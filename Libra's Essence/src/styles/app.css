@@ -35,7 +35,6 @@
   border-radius: 30px;
   background: #191919;
   padding-left: 1rem;
-  padding-right: 3rem;
   color: #b8b8b8;
 }
 
@@ -50,6 +49,35 @@
 }
 
 .search-icon:hover {
+  color: rgba(241, 241, 60, 0.658);
+  transition: ease all 0.4s;
+}
+
+.user-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.icon-person {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.icon-person:hover {
+  color: rgba(241, 241, 60, 0.658);
+  transition: ease all 0.4s;
+}
+
+.shopping_cart {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.shopping_cart:hover {
   color: rgba(241, 241, 60, 0.658);
   transition: ease all 0.4s;
 }

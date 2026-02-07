@@ -14,6 +14,10 @@ export default function App() {
           <input className="searchbox" type="text" placeholder='Search' />
           <span className="material-symbols-outlined search-icon">search</span>
         </div>
+        <div className="user-icons">
+          <span class="material-symbols-outlined icon-person">person</span>
+          <span class="material-symbols-outlined shopping_cart">shopping_cart</span>
+        </div>
       </div>
 
       <div className="nav-container">
