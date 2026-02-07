@@ -97,4 +97,9 @@
 
 .nav-list li {
   list-style: none;
+  color: #191919;
+}
+
+.nav-list a {
+  text-decoration: none;
 }
