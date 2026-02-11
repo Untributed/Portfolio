@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <>
             <div className="searchbox-container">
-                <Link to="/"><img className="logo" src="./src/assets/logo.jpg" alt="Logo" /></Link>
+                <Link to="/"><img className="logo" src="./public/logo.jpg" alt="Logo" /></Link>
 
                 <div className="input-wrapper">
                     <input className="searchbox" type="text" placeholder='Search' />
