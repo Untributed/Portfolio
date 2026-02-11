@@ -105,6 +105,83 @@
   text-decoration: none;
 }
 
+/* Main - Fragrances Catalog */
+.product-card-wrapper {
+  background-color: rgba(207, 205, 205, 0.582);
+}
+
+.products-catalog-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.azure-fragrance {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-ul {
+  display: flex;
+}
+
+.products-ul li {
+  list-style: none;
+}
+
+.products-ul li a {
+  color: #191919;
+}
+
+.products-ul a {
+  text-decoration: none;
+}
+
+.star-icon {
+  color: rgb(253, 190, 73) !important;
+}
+
+.azure-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.azure-fragrance-img {
+  display: flex;
+}
+
+.azure-name-div {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem 0rem 0rem 0rem;
+}
+
+.price-span {
+  display: flex;
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6ac68;
+  border: transparent;
+  margin: 0rem 0rem 1rem 0rem; 
+  padding: 0.3rem 7rem 0.3rem 7rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Fragrances Catalog */
+.azure-fragrance {
+  height: 200px;
+  width: auto;
+}
+
 /* Footer */
 .social-icons-wrapper {
   background-color: #191919e3;
