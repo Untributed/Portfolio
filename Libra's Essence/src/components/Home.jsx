@@ -12,7 +12,7 @@ export default function Home() {
                         <ul className="products-ul">
                             <li className="azure-li">
                                 <div className="azure-fragrance-img">
-                                    <img className="azure-fragrance" src="./public/azure.png" alt="Product" />
+                                    <img className="azure-fragrance" src="./src/assets/azure.png" alt="Product" />
                                 </div>
                                 <div className="azure-name-div">
                                     <a href="product">Azure Whisper</a>
