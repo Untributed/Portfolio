@@ -18,12 +18,12 @@ export default function Home() {
                                     <a href="product">Azure Whisper</a>
                                 </div>
                                 <div className="rating">
-                                <a className="star-icon"> <FaStar /></a>
-                                <a className="star-icon"> <FaStar /></a>
-                                <a className="star-icon"> <FaStar /></a>
-                                <a className="star-icon"> <FaStar /></a>
-                                <a className="star-icon"> <FaStar /></a>
-                                <span className="rating"> (5.0)</span>
+                                    <a className="star-icon"> <FaStar /></a>
+                                    <a className="star-icon"> <FaStar /></a>
+                                    <a className="star-icon"> <FaStar /></a>
+                                    <a className="star-icon"> <FaStar /></a>
+                                    <a className="star-icon"> <FaStar /></a>
+                                    <span className="rating"> (5.0)</span>
                                 </div>
                                 <span className="price-span">
                                     19$
@@ -36,6 +36,7 @@ export default function Home() {
                     </div>
                 </div>
             </main>
+
         </>
     );
 }

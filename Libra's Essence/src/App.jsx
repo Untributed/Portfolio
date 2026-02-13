@@ -13,16 +13,18 @@ export default function App() {
 
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="new-arrivals" element={<NewArrivals />} />
-        <Route path="promotions" element={<Promotions />} />
-        <Route path="perfumes" element={<Perfumes />} />
-        <Route path="manufacturers" element={<Manufacturers />} />
-        <Route path="sets" element={<Sets />} />
-      </Routes>
-      <Footer />
+      <div className="app-layout">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="new-arrivals" element={<NewArrivals />} />
+          <Route path="promotions" element={<Promotions />} />
+          <Route path="perfumes" element={<Perfumes />} />
+          <Route path="manufacturers" element={<Manufacturers />} />
+          <Route path="sets" element={<Sets />} />
+        </Routes>
+        <Footer />
+      </div>
     </>
   );
 }
