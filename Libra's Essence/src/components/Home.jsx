@@ -5,8 +5,7 @@ import { FaStar } from "react-icons/fa6";
 export default function Home() {
 
     return (
-        <>
-            <main className="products-catalog-wrapper">
+        <div className="products-catalog-wrapper">
                 <div className="product-card-wrapper">
                     <div className="product-card">
                         <ul className="products-ul">
@@ -35,8 +34,6 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-            </main>
-
-        </>
+        </div>
     );
 }
