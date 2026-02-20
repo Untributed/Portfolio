@@ -17,11 +17,11 @@ export default function Header() {
 
             <div className="nav-links-wrapper">
                 <ul className="nav-ul-links">
-                    <Link to="new-arrivals"><li>New Arrivals</li></Link>
-                    <Link to="promotions"><li>Promotions</li></Link>
-                    <Link to="perfumes"><li>Perfumes</li></Link>
-                    <Link to="manufacturers"><li>Manufacturers</li></Link>
-                    <Link to="sets"><li>Sets</li></Link>
+                    <Link className="new-arrivals" to="new-arrivals"><li>New Arrivals</li></Link>
+                    <Link className="promotions" to="promotions"><li>Promotions</li></Link>
+                    <Link className="perfumes" to="perfumes"><li>Perfumes</li></Link>
+                    <Link className="manufacturers" to="manufacturers"><li>Manufacturers</li></Link>
+                    <Link className="sets" to="sets"><li>Sets</li></Link>
                 </ul>
             </div>
         </div>

@@ -97,6 +97,37 @@
 .nav-ul-links {
   display: flex;
   gap: 2rem;
+  height: 2rem;
+}
+
+.new-arrivals li:hover {
+  color: #f1c47a;
+  transition: 0.2s ease all;
+  border-bottom: 3px solid #f1c47a;
+}
+
+.promotions li:hover {
+  color: #f1c47a;
+  transition: 0.2s ease all;
+  border-bottom: 3px solid #f1c47a;
+}
+
+.perfumes li:hover {
+  color: #f1c47a;
+  transition: 0.2s ease all;
+  border-bottom: 3px solid #f1c47a;
+}
+
+.manufacturers li:hover {
+  color: #f1c47a;
+  transition: 0.2s ease all;
+  border-bottom: 3px solid #f1c47a;
+}
+
+.sets li:hover {
+  color: #f1c47a;
+  transition: 0.2s ease all;
+  border-bottom: 3px solid #f1c47a;
 }
 
 .nav-ul-links li {
@@ -171,7 +202,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d6ac68;
+  background-color: #f1c47a;
   border: transparent;
   margin: 0rem 0rem 1rem 0rem;
   padding: 0.3rem 7rem 0.3rem 7rem;
