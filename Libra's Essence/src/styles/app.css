@@ -13,15 +13,24 @@
   height: 100vh;
 }
 
-/* Header */
 .header-wrapper {
   display: flex;
   flex-direction: column;
 }
 
+/* Header */
+.header-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .searchbox-container {
+  width: 100%;
   background: #191919;
-  height: 5rem;
+  padding: 1.2rem 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +44,8 @@
 }
 
 .searchbox {
-  width: 50rem;
+  margin: 0rem 7rem 0rem 0rem;
+  width: 55rem;
   height: 3rem;
   padding-left: 12px;
   border: 1px solid #474646;
@@ -45,9 +55,9 @@
 }
 
 .search-icon {
-  position: absolute;
-  top: 3%;
-  right: 31%;
+  position: relative;
+  top: 8px;
+  right: 160px;
   color: #d6d5d5;
   font-size: 24px;
   cursor: pointer;
@@ -91,13 +101,13 @@
   justify-content: space-around;
   font-size: 18px;
   font-family: "Noto Serif";
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .nav-ul-links {
   display: flex;
   gap: 2rem;
-  height: 2rem;
+  height: 1rem;
 }
 
 .new-arrivals li:hover {
@@ -128,7 +138,7 @@
   color: #f1c47a;
   transition: 0.2s ease all;
   border-bottom: 3px solid #f1c47a;
-}
+} 
 
 .nav-ul-links li {
   list-style: none;
@@ -285,6 +295,7 @@
 
 .footer-links {
   display: flex;
+  padding: 2.25rem 0rem 2.25rem 0rem;
 }
 
 .footer-links li {
@@ -294,7 +305,6 @@
 .footer-ul {
   display: flex;
   gap: 6rem;
-  margin-top: 5rem;
 }
 
 .footer-links .first-heading {
