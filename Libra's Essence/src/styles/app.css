@@ -111,58 +111,44 @@
   gap: 2rem;
 }
 
-.nav-ul-links .new-arrivals li {
+.new-arrivals,
+.promotions,
+.perfumes,
+.manufacturers,
+.sets {
   position: relative;
 }
 
-.new-arrivals li:hover {
-  color: #f1c47a;
+.new-arrivals li:hover,
+.promotions li:hover,
+.perfumes li:hover,
+.manufacturers li:hover,
+.sets li:hover {
+  color: #ddb575;
 }
 
-.new-arrivals li::before {
+.new-arrivals li::before,
+.promotions li::before,
+.perfumes li::before,
+.manufacturers li::before,
+.sets li::before {
   content: '';
   position: absolute;
-  bottom: 5px;
-  left: 0;
+  bottom: -10px;
+  left: 0px;
   width: 0%;
-  height: 1px;
-  transition: ease-in 0.3s;
+  height: 3px;
+  background-color: #ddb575;
+  transition: ease 0.3s;
 }
 
-.new-arrivals li:hover::before {
+.new-arrivals li:hover::before,
+.promotions li:hover::before,
+.perfumes li:hover::before,
+.manufacturers li:hover::before,
+.sets li:hover::before {
   width: 100%;
 }
-
- /* .new-arrivals li:hover {
-  color: #f1c47a;
-  border-bottom: 3px solid #f1c47a;
-}
-
-.promotions li:hover {
-  color: #f1c47a;
-  transition: 0.2s;
-  border-bottom: 3px solid #f1c47a;
-}
-
-.perfumes li:hover {
-  color: #f1c47a;
-  transition: 0.2s;
-  border-bottom: 3px solid #f1c47a;
-}
-
-.manufacturers li:hover {
-  color: #f1c47a;
-  transition: 0.2s;
-  border-bottom: 3px solid #f1c47a;
-}
-
-.sets li:hover {
-  color: #f1c47a;
-  transition: 0.2s;
-  border-bottom: 3px solid #f1c47a;
-} 
-
-*/
 
 .nav-ul-links li {
   list-style: none;
@@ -175,7 +161,7 @@
 
 /* Main */
 
-/* Footer Wrapper } */ 
+/* Footer Wrapper } */
 .footer-wrapper {
   display: flex;
   flex-direction: column;
@@ -257,22 +243,22 @@
 
 .footer-links .first-heading {
   font-weight: 900;
-  color:rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897)
 }
 
 .footer-links .second-heading {
   font-weight: 900;
-  color:rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897)
 }
 
 .footer-links .third-heading {
   font-weight: 900;
-  color:rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897)
 }
 
 .footer-links .fourth-heading {
   font-weight: 900;
-  color:rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897)
 }
 
 .first-section {
