@@ -111,9 +111,30 @@
   gap: 2rem;
 }
 
+.nav-ul-links .new-arrivals li {
+  position: relative;
+}
+
 .new-arrivals li:hover {
   color: #f1c47a;
-  transition: 0.2s;
+}
+
+.new-arrivals li::before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  transition: ease-in 0.3s;
+}
+
+.new-arrivals li:hover::before {
+  width: 100%;
+}
+
+ /* .new-arrivals li:hover {
+  color: #f1c47a;
   border-bottom: 3px solid #f1c47a;
 }
 
@@ -140,6 +161,8 @@
   transition: 0.2s;
   border-bottom: 3px solid #f1c47a;
 } 
+
+*/
 
 .nav-ul-links li {
   list-style: none;
