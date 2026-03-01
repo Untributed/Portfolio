@@ -139,7 +139,7 @@
   width: 0%;
   height: 3px;
   background-color: #ddb575;
-  transition: ease 0.3s;
+  transition: ease-out 0.3s;
 }
 
 .new-arrivals li:hover::before,
