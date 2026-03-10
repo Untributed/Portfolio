@@ -170,14 +170,14 @@
 }
 
 /* Footer Social Media */
-.social-icons-wrapper {
+.community-nav {
   display: flex;
   justify-content: center;
   background-color: #191919e3;
   padding: 1.5rem 0rem
 }
 
-.social-icons {
+.icon-list-row {
   display: flex;
   text-align: center;
   align-items: center;
@@ -187,7 +187,7 @@
   gap: 1rem;
 }
 
-.social-icons li {
+.icon-list-row li {
   list-style: none;
   background-color: #ddb575;
   width: 40px;
@@ -203,17 +203,17 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.social-icons li:hover {
+.icon-list-row li:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 0px 2px rgb(240, 239, 239);
 }
 
-.social-icons a {
+.icon-list-row a {
   text-decoration: none;
   color: rgb(240, 239, 239);
 }
 
-.social-icons .youtube-icon {
+.icon-list-row .FaYoutube {
   font-size: 20px;
   transform: scale(1.2);
 }
