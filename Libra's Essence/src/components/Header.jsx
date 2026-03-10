@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import LogoImg from "../assets/logo.jpg"
 
 export default function Header() {
     return (
         <div className="header-wrapper">
             <div className="header-sub-wrapper">
                 <div className="searchbox-container">
-                    <Link to="/"><img className="logo" src="./src/assets/logo.jpg" alt="Logo" /></Link>
+                    <Link to="/"><img className="logo" src={LogoImg} alt="Logo" /></Link>
                     <div className="input-wrapper">
                         <input className="searchbox" id="searchbox" type="text" placeholder='Search' />
                         <span className="material-symbols-outlined search-icon">search</span>
