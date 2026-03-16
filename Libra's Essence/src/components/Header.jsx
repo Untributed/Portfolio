@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LogoImg from "../assets/logo.jpg"
+import LogoImg from "../assets/logo.jpg";
 
 export default function Header() {
     return (
@@ -11,6 +11,17 @@ export default function Header() {
                         <input className="searchbox" id="searchbox" type="text" placeholder='Search' />
                         <span className="material-symbols-outlined search-icon">search</span>
                     </div>
+
+                    <div className="admin-dashboard-wrapper">
+                        <ul className="admin-dashboard-ul">
+                            <Link to="admin-dashboard">
+                                <li className="admin-dasboard-li">
+                                    <a href="">Admin Dashboard</a>
+                                </li>
+                            </Link>
+                        </ul>
+                    </div>
+
                     <div className="header-icons">
                         <span className="material-symbols-outlined icon-person">person</span>
                         <span className="material-symbols-outlined shopping_cart">shopping_cart</span>
