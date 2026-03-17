@@ -121,7 +121,6 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 .products-box img {
@@ -140,10 +139,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 260px;
-  gap: 0.30rem;
+  gap: 0.40rem;
 }
 
 .edit-btn, .delete-btn {
+  text-align: center;
   border-radius: 30px;
   border: 1px solid #191919;
   background-color:#ddb575;
@@ -152,6 +152,7 @@ body {
   font-weight: 400;
   cursor: pointer;
   padding: 0.15rem;
+  box-shadow: 1px 1px 2px 0px#191919;
 }
 
 .edit-btn:hover, .delete-btn:hover {
@@ -160,7 +161,6 @@ body {
 } 
 
 /* <---- Admin Dashboard End ---->*/
-
 .header-icons {
   display: flex;
   gap: 1rem;
