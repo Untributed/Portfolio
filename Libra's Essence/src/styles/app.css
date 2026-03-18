@@ -138,8 +138,11 @@ body {
 .lune-fragrance-div {
   display: flex;
   flex-direction: column;
-  width: 260px;
+  width: 250px;
   gap: 0.40rem;
+  border:1px solid rgba(8, 8, 8, 0.973);
+  box-shadow: 1px 2px 3px 1px #191919;
+  padding: 0.25rem;
 }
 
 .edit-btn, .delete-btn {
@@ -159,6 +162,11 @@ body {
   transition: ease-in-out 0.3s;
   background-color: #cca76c;
 } 
+
+.edit-btn:active, .delete-btn:active {
+  width: 238px;
+  transform: scale(0.95);
+}
 
 /* <---- Admin Dashboard End ---->*/
 .header-icons {
