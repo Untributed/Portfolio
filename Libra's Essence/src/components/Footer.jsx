@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
+
 export default function Footer() {
     return (
         <div className="footer-wrapper">
@@ -16,9 +17,9 @@ export default function Footer() {
                     <ul className="footer-ul">
                         <div className="first-section">
                             <li className="first-heading">Store</li>
-                            <li>About Us</li>
-                            <li>Contacts</li>
-                            <li>Our Stores</li>
+                            <Link to="about-us"><li>About Us</li></Link>
+                            <Link to="contacts"><li>Contacts</li></Link>
+                            <Link to="our-stores"><li>Our Stores</li></Link>
                         </div>
                         <div className="second-section">
                             <li className="second-heading">Conditions</li>

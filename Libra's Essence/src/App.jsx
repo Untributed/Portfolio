@@ -8,6 +8,8 @@ import Perfumes from "./components/Perfumes.jsx";
 import Manufacturers from "./components/Manufacturers.jsx";
 import Sets from "./components/Sets.jsx";
 import AdminDashboard from "./admindashboard/AdminDashboard.jsx";
+
+import AboutUs from "./views/AboutUs.jsx";
 import "./styles/App.css";
 
 export default function App() {
@@ -23,8 +25,9 @@ export default function App() {
           <Route path="perfumes" element={<Perfumes />} />
           <Route path="manufacturers" element={<Manufacturers />} />
           <Route path="sets" element={<Sets />} />
-          <Route path="admin-dashboard" element={<AdminDashboard/>} />
+          <Route path="admin-dashboard" element={<AdminDashboard />} />
         </Routes>
+        <AboutUs />
       </main>
       <Footer />
     </div>
