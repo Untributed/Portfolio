@@ -26,8 +26,8 @@ export default function App() {
           <Route path="manufacturers" element={<Manufacturers />} />
           <Route path="sets" element={<Sets />} />
           <Route path="admin-dashboard" element={<AdminDashboard />} />
+          <Route path="about-us" element={<AboutUs />} />
         </Routes>
-        <AboutUs />
       </main>
       <Footer />
     </div>
