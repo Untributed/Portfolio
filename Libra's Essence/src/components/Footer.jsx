@@ -18,7 +18,7 @@ export default function Footer() {
                         <div className="first-section">
                             <li className="first-heading">Store</li>
                             <Link to="about-us"><li>About Us</li></Link>
-                            <Link to="contacts"><li>Contacts</li></Link>
+                            <Link to="contact-us"><li>Contacts</li></Link>
                             <Link to="our-stores"><li>Our Stores</li></Link>
                         </div>
                         <div className="second-section">

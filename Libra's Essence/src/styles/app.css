@@ -386,17 +386,21 @@ body {
   gap: 1rem;
 }
 
-.about-us-wrapper {
+.contact-us-wrapper {
   display: flex;
   flex-direction: column;
   font-family: "Noto Serif";
   font-size: 16px;
   padding: 0.25rem;
   margin-top: 2rem;
-  line-height: 2rem;
+  line-height: 3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 30vw;
-  height: 30vh;
+  height: 40vh;
+  justify-content: center;
+  position: absolute;
+  left: 5%;
+  bottom: 40%;
 }
 
 .email-span {

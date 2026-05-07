@@ -30,7 +30,7 @@ export default function Header() {
 
 
             </div>
-            <div className="nav-links-wrapper">
+            <div className="nav-links-wrapper">    
                 <ul className="nav-ul-links">
                     <div className="new-arrivals"><Link to="new-arrivals"><li>New Arrivals</li></Link></div>
                     <div className="promotions"><Link to="promotions"><li>Promotions</li></Link></div>
