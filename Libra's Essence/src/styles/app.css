@@ -300,7 +300,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -315,7 +314,7 @@ body {
 }
 
 .icon-list-row .FaYoutube {
-  font-size: 20px;
+  font-size: 18px;
   transform: scale(1.2);
 }
 
@@ -388,19 +387,42 @@ body {
 
 .contact-us-wrapper {
   display: flex;
+}
+
+.contacts-wrapper {
+  display: flex;
   flex-direction: column;
   font-family: "Noto Serif";
-  font-size: 16px;
+  font-size: 14px;
   padding: 0.25rem;
-  margin-top: 2rem;
-  line-height: 3rem;
+  line-height: 2.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 30vw;
-  height: 40vh;
+  max-width: 30%;
   justify-content: center;
-  position: absolute;
-  left: 5%;
+  position: relative;
+  left: 15%;
   bottom: 40%;
+  padding: 3rem;
+  margin: 4rem 1.5rem;
+}
+
+.contact-form-wrapper {
+  position: relative;
+  left: 25%;
+  display: grid;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 30px 30px;
+  grid-template-areas: 
+  "box-1 box-2 box-3 box-4"
+  "box-5 box-5 box-5 box-5"
+  "box-6 box-6 box-6 box-6";
+  gap: 1rem;
+  position: relative;
+  top: 10%;
 }
 
 .email-span {
