@@ -409,20 +409,18 @@ body {
 .contact-form-wrapper {
   position: relative;
   left: 25%;
-  display: grid;
 }
 
 .contact-form {
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 30px 30px;
-  grid-template-areas: 
-  "box-1 box-2 box-3 box-4"
-  "box-5 box-5 box-5 box-5"
-  "box-6 box-6 box-6 box-6";
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   position: relative;
   top: 10%;
+}
+
+.contact-form:nth-child(5),.contact-form:nth-child(6) {
+  grid-template-columns: 1/-1;
 }
 
 .email-span {
