@@ -10,6 +10,7 @@ import Sets from "./components/Sets.jsx";
 import AdminDashboard from "./admindashboard/AdminDashboard.jsx";
 
 import ContactUs from "./views/ContactUs.jsx";
+import AboutUs from "./views/AboutUs.jsx";
 import "./styles/App.css";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="sets" element={<Sets />} />
           <Route path="admin-dashboard" element={<AdminDashboard />} />
           <Route path="contact-us" element={<ContactUs />} />
+          <Route path="about-us" element={<AboutUs />} />
         </Routes>
       </main>
       <Footer />

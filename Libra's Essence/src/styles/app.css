@@ -457,6 +457,26 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+.about-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  font-family: "Noto Serif";
+}
+
+.about-page-div-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 23rem;
+}
+
+.about-page-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1.5rem;
+}
+
 .email-span {
   display: flex;
   gap: 0.75rem;
