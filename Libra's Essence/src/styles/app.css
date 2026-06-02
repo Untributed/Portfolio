@@ -338,7 +338,12 @@ body {
 }
 
 .footer-links li {
+  color: white;
   list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
 }
 
 .footer-ul {
@@ -348,22 +353,22 @@ body {
 
 .footer-links .first-heading {
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .footer-links .second-heading {
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .footer-links .third-heading {
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .footer-links .fourth-heading {
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.897)
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .first-section {
