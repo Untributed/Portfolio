@@ -18,12 +18,12 @@ export default function Footer() {
                         <div className="first-section">
                             <li className="first-heading">Store</li>
                             <Link to="about-us"><li>About Us</li></Link>
-                            <Link to="contact-us"><li>Contacts</li></Link>
+                            <Link to="contact-us"><li>Contact Us</li></Link>
                             <Link to="our-stores"><li>Our Stores</li></Link>
                         </div>
                         <div className="second-section">
                             <li className="second-heading">Conditions</li>
-                            <li>Private Policy</li>
+                            <li>Privacy Policy</li>
                             <li>General Conditions</li>
                             <li>Declaration for Private Data</li>
                         </div>
@@ -41,6 +41,7 @@ export default function Footer() {
                         </div>
                     </ul>
                 </div>
+                <div className="copyright"><h1>Copyright© 2026 - Libra's Essence</h1></div>
             </div>
         </div>
     );

@@ -326,7 +326,9 @@ body {
 /* Footer */
 .footer-bottom-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 18px;
   background: rgba(8, 8, 8, 0.973);
   color: rgba(214, 214, 214, 0.829);
@@ -334,7 +336,23 @@ body {
 
 .footer-links {
   display: flex;
-  padding: 2.25rem 0rem 2.25rem 0rem;
+  padding: 1.5rem 0rem 2.25rem 0rem;
+}
+
+.first-heading {
+  font-size: 25px;
+}
+
+.second-heading {
+  font-size: 25px;
+}
+
+.third-heading {
+  font-size: 25px;
+}
+
+.fourth-heading {
+  font-size: 25px;
 }
 
 .footer-links li {
@@ -519,4 +537,11 @@ body {
 
 .material-symbols-outlined {
   font-size: 20px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: white;
 }
