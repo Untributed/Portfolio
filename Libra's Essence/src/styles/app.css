@@ -546,3 +546,27 @@ body {
   color: white;
   margin: 0rem 0rem 1rem 0rem;
 }
+
+.google-maps-location iframe {
+  margin: 1rem 0rem 2rem 0rem;
+  width: 100vw;
+  height: 65vh;
+}
+
+.our-stores-h2-p {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-store-phone-span, .our-store-email-span {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.our-stores-phone {
+  color: #ddb575;
+}
+
+.our-stores-email {
+  color: #ddb575;
+}
