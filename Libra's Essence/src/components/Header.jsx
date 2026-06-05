@@ -6,7 +6,8 @@ export default function Header() {
         <div className="header-wrapper">
             <div className="header-sub-wrapper">
                 <div className="searchbox-container">
-                    <Link to="/"><img className="logo" src={LogoImg} alt="Logo" /></Link>
+                    
+                    <div className="logo-div"> <Link to="/"><img className="logo" src={LogoImg} alt="Logo" /></Link> </div>
                     <div className="input-wrapper">
                         <input className="searchbox" id="searchbox" type="text" placeholder='Search' />
                         <span className="material-symbols-outlined search-icon">search</span>
