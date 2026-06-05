@@ -490,8 +490,9 @@ body {
 .about-page-div-wrapper {
   display: flex;
   flex-direction: column;
-  margin: 0rem 23rem;
+  margin: 0rem 10rem;
   font-family: "Noto Serif";
+  align-items: center;
 }
 
 .about-page-content-wrapper {
@@ -502,25 +503,20 @@ body {
   font-family: "Noto Serif";
 }
 
-.about-us-li-1>ul {
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
 .about-us-li-2 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.about-us-li-2>ul {
-  margin-left: 1rem;
-}
-
 .about-us-p3 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.about-us-li-1 li, .about-us-li-2 li {
+  margin-left: 1.20rem;
 }
 
 .email-span {
