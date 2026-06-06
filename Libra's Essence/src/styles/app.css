@@ -44,7 +44,7 @@ body {
 }
 
 .logo-div {
-  margin-right: 65rem;
+  margin-right: 50rem;
 }
 
 .logo {
@@ -76,17 +76,18 @@ body {
 }
 
 .input-wrapper {
-  position: fixed;
+  position: absolute;
   display: flex;
 }
 
-.input-warpper span {
+.input-wrapper span {
   display: flex;
+  height: 1px;
 }
 
 .searchbox {
-  margin: 0rem 7rem 0rem 0rem;
-  width: 55rem;
+  margin: 0rem 1rem 0rem 0rem;
+  width: 50rem;
   max-width: 100%;
   height: 3rem;
   padding-left: 12px;
@@ -100,7 +101,7 @@ body {
   color: #d6d5d5;
   cursor: pointer;
   position: relative;
-  right: 160px;
+  right: 60px;
   top: 10px;
 }
 
@@ -118,6 +119,10 @@ body {
   color: #ffffff;
   text-decoration: none;
   list-style: none;
+}
+
+.admin-dashboard-wrapper {
+  margin-left: 12rem
 }
 
 .admin-dashboard-wrapper li a:hover {
