@@ -205,6 +205,14 @@ body {
   align-items: center;
 }
 
+.header-icons>.shopping_cart {
+  font-size: 25px;
+}
+
+.material-symbols-outlined {
+  font-size: 30px;
+}
+
 .icon-person {
   color: #ffffff;
   cursor: pointer;
@@ -436,6 +444,8 @@ body {
   gap: 1rem;
 }
 
+/* Contact Page View Start */
+
 .contact-page-wrapper {
   display: flex;
   margin: 2rem;
@@ -503,6 +513,10 @@ body {
   transition: 0.3s ease-in-out;
 }
 
+/* Contact Page View End */
+
+/* About us Page View Start */
+
 .about-page-wrapper {
   display: flex;
   flex-direction: column;
@@ -554,13 +568,9 @@ body {
   align-items: center;
 }
 
-.material-symbols-outlined {
-  font-size: 30px;
-}
+/* About us Page View End */
 
-.shopping_cart {
-  font-size: 25px;
-}
+/* Copyright Start */
 
 .copyright {
   display: flex;
@@ -570,10 +580,21 @@ body {
   margin: 0rem 0rem 1rem 0rem;
 }
 
+/* Copyright End */
+
+/* Our Stores View Start */
+
 .google-maps-location iframe {
   margin: 1rem 0rem 2rem 0rem;
   width: 100vw;
   height: 65vh;
+}
+
+.our-stores-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem 0rem 2rem 0rem;
 }
 
 .our-stores-h2-p {
@@ -581,9 +602,18 @@ body {
   flex-direction: column;
 }
 
-.our-store-phone-span, .our-store-email-span {
+.our-stores-phone-span {
   display: flex;
+  margin: 0rem 8.85rem 0rem 0rem;
+  align-items: center;
   gap: 0.5rem;
+}
+
+.our-stores-email-span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0rem 6rem 0rem 0rem;
 }
 
 .our-stores-phone {
@@ -593,3 +623,5 @@ body {
 .our-stores-email {
   color: #ddb575;
 }
+
+/* Our Stores View End */

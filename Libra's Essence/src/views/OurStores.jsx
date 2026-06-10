@@ -11,17 +11,17 @@ export default function OurStores() {
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-                <div className="our-stores-stores-section">
+                <div className="our-stores-main-div">
                     <div className="our-stores-h2-p">
                         <h2>1165 Angelina Street</h2>
                         <p>Austin, Texas</p>
                         <p>1165 Angelina St, Austin, TX 78702, USA</p>
                     </div>
-                    <div className="our-store-phone-span">
+                    <div className="our-stores-phone-span">
                         <span className="material-symbols-outlined">phone_in_talk</span>
                         <span className="our-stores-phone">(415) 555-0287</span>
                     </div>
-                    <div className="our-store-email-span">
+                    <div className="our-stores-email-span">
                         <span className="material-symbols-outlined">mail</span>
                         <span className="our-stores-email">info@lefragrance.com</span>
                     </div>
