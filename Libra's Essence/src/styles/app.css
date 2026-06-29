@@ -27,90 +27,7 @@ body {
   width: 100%;
 }
 
-.header-wrapper {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-/* Header */
-
-.header-wrapper {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-.logo-div {
-  margin-right: 50rem;
-}
-
-.logo {
-  height: 50px;
-  max-width: 100%;
-  display: flex;
-  cursor: pointer;
-}
-
-.header-top-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 100%;
-}
-
-.searchbox-container {
-  width: 100%;
-  max-width: 100%;
-  background: #191919;
-  padding: 1.2rem 0rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  overflow-x: hidden;
-}
-
-.input-wrapper {
-  position: absolute;
-  display: flex;
-}
-
-.input-wrapper span {
-  display: flex;
-  height: 1px;
-}
-
-.searchbox {
-  margin: 0rem 1rem 0rem 0rem;
-  width: 50rem;
-  max-width: 100%;
-  height: 3rem;
-  padding-left: 12px;
-  border: 1px solid #474646;
-  border-radius: 30px;
-  background: #191919;
-  color: #b8b8b8;
-}
-
-.search-icon {
-  color: #d6d5d5;
-  cursor: pointer;
-  position: relative;
-  right: 60px;
-  top: 10px;
-}
-
-.search-icon:hover {
-  color: rgba(241, 241, 60, 0.658);
-  transition: ease all 0.4s;
-}
-
-/* Admin Dashboard */
+/* Admin Dashboard Start */
 .admin-dashboard-wrapper,
 .admin-dashboard-wrapper a,
 .admin-dashboard-wrapper li {
@@ -122,7 +39,7 @@ body {
 }
 
 .admin-dashboard-wrapper {
-  margin-left: 12rem
+  margin-left: 5rem
 }
 
 .admin-dashboard-wrapper li a:hover {
@@ -199,6 +116,80 @@ body {
 }
 
 /* <---- Admin Dashboard End ---->*/
+
+/* Header Start */
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.logo-div {
+  margin-right: 2rem;
+}
+
+.logo {
+  height: 50px;
+  max-width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.header-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.searchbox-container {
+  background: #191919;
+  padding: 1.2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.input-wrapper span {
+  display: flex;
+  height: 1px;
+}
+
+.searchbox {
+  margin: 0rem 1rem 0rem 0rem;
+  width: 55rem;
+  max-width: 100%;
+  height: 3rem;
+  padding-left: 12px;
+  border: 1px solid #474646;
+  border-radius: 30px;
+  background: #191919;
+  color: #b8b8b8;
+}
+
+.search-icon {
+  color: #d6d5d5;
+  cursor: pointer;
+  position: relative;
+  right: 60px;
+  top: 10px;
+}
+
+.search-icon:hover {
+  color: rgba(241, 241, 60, 0.658);
+  transition: ease all 0.4s;
+}
+
+
 .header-icons {
   display: flex;
   gap: 1rem;
@@ -295,10 +286,9 @@ body {
   text-decoration: none;
 }
 
-/* Main */
+/* <---- Header End ----> */
 
-
-/* Footer Wrapper } */
+/* Footer Wrapper Start */
 .footer-wrapper {
   display: flex;
   flex-direction: column;
@@ -306,7 +296,8 @@ body {
   flex-shrink: 0;
 }
 
-/* Footer Social Media */
+/* Footer Social Media Start */
+
 .community-nav {
   display: flex;
   justify-content: center;
@@ -354,7 +345,8 @@ body {
   transform: scale(1.2);
 }
 
-/* Footer */
+/* <---- Footer Social Media End ----> */
+
 .footer-bottom-section {
   display: flex;
   flex-direction: column;
@@ -444,14 +436,16 @@ body {
   gap: 1rem;
 }
 
+/* <---- Footer Wrapper End ----> */
+
 /* Contact Page View Start */
 
 .contact-page-wrapper {
   display: flex;
   margin: 2rem;
-  height: 70vh;
-  gap: 5rem;
+  justify-content: center;
   font-family: "Noto Serif";
+  gap: 5rem;
 }
 
 .contact-us-info-wrapper {
@@ -463,13 +457,13 @@ body {
   max-width: 30%;
   justify-content: center;
   padding: 3rem;
-  margin: 0rem 10rem 0rem 15rem;
 }
 
 .contact-form-wrapper {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / .2), 0 6px 20px 0 rgb(0 0 0 / .19);
-  padding: 3rem;
+  padding: 6rem;
   text-align: center;
+  min-width: 30%;
 }
 
 .contact-form {
@@ -513,7 +507,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-/* Contact Page View End */
+/* <---- Contact Page View End ----> */
 
 /* About us Page View Start */
 
@@ -568,7 +562,7 @@ body {
   align-items: center;
 }
 
-/* About us Page View End */
+/* <---- About us Page View End ----> */
 
 /* Copyright Start */
 
@@ -580,7 +574,7 @@ body {
   margin: 0rem 0rem 1rem 0rem;
 }
 
-/* Copyright End */
+/* <---- Copyright End ----> */
 
 /* Our Stores View Start */
 
@@ -624,4 +618,4 @@ body {
   color: #ddb575;
 }
 
-/* Our Stores View End */
+/* <---- Our Stores View End ---> */
